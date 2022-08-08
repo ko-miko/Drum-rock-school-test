@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0,1,13,255);
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
